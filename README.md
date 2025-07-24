@@ -1,14 +1,14 @@
-# femicide-guardian
-# 👁️ Femicide Guardian
+# Femicide Guardian 👮‍♀️🛡️
 
-A privacy-first FastAPI system that detects high-risk patterns in relationships by analyzing conversation data and user reports.  
-🛡️ Built for protecting lives through proactive alerts.
+A privacy-first FastAPI system that flags relational risks and empowers women to speak up safely.
 
----
+## Features
+- Chatbot with NLP to analyze relationship risk
+- Panic button with alert triggers
+- Local-first deployment with ethical data controls
 
-## 🚀how to Run Locally
+## Usage
+Start the FastAPI app with:
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/Edwin212-kip/femicide-guardian.git
-   cd femicide-guardian
+```bash
+uvicorn app.main:app --reload
